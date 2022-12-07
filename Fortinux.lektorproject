@@ -1,0 +1,5 @@
+[project]
+name = Fortinux
+
+[servers.ghpages]
+target = ghpages+https://fortinux/ejemplo-lektor
