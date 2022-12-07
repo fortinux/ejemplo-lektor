@@ -2,4 +2,4 @@
 name = Fortinux
 
 [servers.ghpages]
-target = ghpages+https://fortinux/ejemplo-lektor
+target = ghpages+https://fortinux.github.io/ejemplo-lektor/
