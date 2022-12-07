@@ -1,5 +1,11 @@
-[project]
-name = Fortinux
+image: python:latest
 
-[servers.ghpages]
-target = ghpages+https://fortinux.github.io/ejemplo-lektor/
+pages:
+  script:
+    - pip install lektor
+    - lektor build --output-path public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
